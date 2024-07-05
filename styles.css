@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e3fef7;
+  color: #003c43;
+}
+
+/* image part */
+img.bannerPic {
+  /* border: 1px solid #ddd; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 90%; */
+  max-width: 100%;
+  height: auto;
+}
+
+.navdiv {
+  height: 100%;
+  /* background-color: blueviolet; */
+}
+
+h1,
+h4 {
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Bona Nova SC", serif;
+}
+
+/* Join us online */
+h5 {
+  font-family: "Playfair Display", serif;
+}
+
+/* ISBN body part */
+p.lcolor {
+  color: #77b0aa;
+  padding-left: 20px;
+}
+
+/* section layout part */
+.LMR {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.M {
+  width: 70%;
+}
+
+/* section image part */
+img.cartPic {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 110px;
+}
+
+img.cartPic:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/*button*/
+a.btn {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  /* margin-top: 200px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: #135d66;
+  color: #e3fef7;
+  font-size: 13px;
+  font-family: "Playfair Display", serif;
+  text-shadow: none;
+  /* margin-bottom: -500px; */
+}
+
+a.nava {
+  display: inline-block;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 70px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  text-shadow: none;
+  justify-content: space-between;
+  color: rgb(212, 144, 17);
+}
+
+a.enquiry {
+  padding: 0px;
+}
+
+a {
+  display: inline-block;
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-left: 20px;
+  /* text-align: center; */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #135d66;
+  font-family: "Playfair Display", serif;
+  text-shadow: none;
+}
+
+article {
+  background-color: #135d66;
+  color: #e3fef7;
+  padding: 20px;
+
+  /* the following 3 lines are for responsive */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a.articleA {
+  color: #e3fef7;
+  display: inline-block;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 12px;
+  /* font-family: "Playfair Display", serif; */
+  text-shadow: none;
+}
+
+/* footer part */
+footer {
+  background-color: #003c43;
+  color: #e3fef7;
+  padding: 20px;
+
+  /* the following 3 lines are for responsive */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* space between icons */
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+/*responsive*/
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .left {
+    margin-bottom: 20px;
+  }
+}
+
+/* .bannerTitle {
+} */
+/* .L {} */
+/* .R {} */
